@@ -9,7 +9,7 @@ import getVisibleExpenses from './selectors/expenses'
 import 'react-dates/lib/css/_datepicker.css'
 import 'react-dates/initialize'
 import 'normalize.css/normalize.css'
-import './styles/styles.sass'
+import './styles/styles.scss'
 
 const store = configureStore()
 
