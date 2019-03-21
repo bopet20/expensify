@@ -7,7 +7,9 @@
     "dev-server": "webpack-dev-server",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
-    "test": "jest --config=jest.config.json"
+    "test": "jest --config=jest.config.json",
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm run build:prod"
   },
   "author": "Nicandro Vergara",
   "license": "ISC",
@@ -22,6 +24,7 @@
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.11.2",
     "enzyme-to-json": "^3.3.5",
+    "express": "^4.16.4",
     "jest": "^24.5.0",
     "mini-css-extract-plugin": "^0.5.0",
     "moment": "^2.24.0",
