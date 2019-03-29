@@ -48,12 +48,9 @@ export const editExpense = (id, updates) => ({
 
 export const startEditExpense = (id, updates) => {
   return (dispatch) => {
-    return database.ref(`expenses/${id}`).once('value')
-    .then((snapshot) => {
-      return database.ref(`expenses/${id}`).set({ ...snapshot.val(), ...updates })
-      .then(() => {
-        dispatch(editExpense(id, updates))
-      })
+    return database.ref(`expenses/${id}`).update(updates)
+    .then(() => {
+      dispatch(editExpense(id, updates))
     })
   }
 }
