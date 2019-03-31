@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginPage /> renders correctly 1`] = `
+<Fragment>
+  <button
+    onClick={[MockFunction]}
+    type="submit"
+  >
+    Login
+  </button>
+</Fragment>
+`;
