@@ -1,12 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<LoginPage /> renders correctly 1`] = `
-<Fragment>
-  <button
-    onClick={[MockFunction]}
-    type="submit"
+<div
+  className="box-layout"
+>
+  <div
+    className="box-layout__box"
   >
-    Login
-  </button>
-</Fragment>
+    <h1
+      className="box-layout__title"
+    >
+      Expensify
+    </h1>
+    <p>
+      Manage your expenses
+    </p>
+    <button
+      className="button button--google"
+      onClick={[MockFunction]}
+      type="submit"
+    >
+      Login with Google
+    </button>
+  </div>
+</div>
 `;

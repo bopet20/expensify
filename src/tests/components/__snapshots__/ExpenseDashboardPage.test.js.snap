@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ExpenseDashboardPage /> renders <ExpenseSummary />, <ExpenseFilters />, and <ExpenseList /> 1`] = `
-<div>
+<Fragment>
   <Connect(ExpensesSummary) />
   <Connect(ExpenseListFilters) />
   <Connect(ExpenseList) />
-</div>
+</Fragment>
 `;

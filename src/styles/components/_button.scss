@@ -1,0 +1,31 @@
+.button {
+  cursor: pointer;
+  background-color: $wintergreen;
+  padding: $s-size;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  font-size: $font-size-large;
+  font-weight: 300;
+  display:inline-block;
+  text-decoration: none;
+  line-height: 1;
+
+  &--google {
+    background-color: $google-red;
+  }
+
+  &--link {
+    background: none;
+
+    &--secondary {
+      color: #888888;
+      font-size: $font-size-small;
+      padding: 0 0 0 6px;
+    }
+  }
+
+  &--secondary {
+    background: #888888;
+  }
+}
